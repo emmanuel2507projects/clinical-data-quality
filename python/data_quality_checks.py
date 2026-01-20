@@ -56,7 +56,7 @@ def main() -> None:
     df = load_data(input_path)
     report = quality_report(df)
 
-    print("=== Clinical Data Quality Report ===")
+    print("=== Clinical Data Quality Report Updated === \n")
     for k, v in report.items():
         print(f"{k}: {v}")
 
